@@ -1,12 +1,12 @@
 .box {
   &--amarillo {
     @include box($amarillo, 150px, 150px);
-    @include box_posicion(0, 0, 2);
+    @include box_position(0, 0, 2);
   }
 
   &--rojo {
     @include box($rojo, 150px, 150px);
-    @include box_posicion(15px, -15px, 3);
+    @include box_position(15px, -15px, 3);
     display: flex;
     align-items: center;
     justify-content: center;
