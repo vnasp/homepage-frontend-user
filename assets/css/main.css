@@ -70,14 +70,14 @@ p {
   background-color: #E4572E;
   width: 150px;
   height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 40px;
   position: absolute;
   bottom: 15px;
   left: -15px;
   z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
 }
 .box--azul {
   background-color: #3C91E6;
@@ -107,8 +107,9 @@ p {
   background-position: center;
   width: 25%;
   height: 150px;
+  position: relative;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: -50px;
   z-index: 2;
 }
@@ -118,16 +119,23 @@ p {
   background-position: center;
   width: 90%;
   height: 250px;
+  position: relative;
   position: absolute;
   bottom: -20px;
   left: -30px;
   z-index: 2;
 }
-.box--titulo {
+.box--titulo, .box--conocenos {
   padding: 30px;
+}
+.box--titulo {
   margin: 30px;
 }
 .box--caracteristicas {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
   background-color: #ffffff;
   font-size: 18px;
   padding: 30px;
@@ -137,14 +145,6 @@ p {
   gap: 2rem;
   width: 50%;
   height: 150px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
-}
-.box--conocenos {
-  width: 50%;
-  padding: 30px;
 }
 
 body {
