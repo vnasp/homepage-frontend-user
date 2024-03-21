@@ -1,0 +1,28 @@
+.btn {
+  padding: $sp2 15px;
+  font-family: $mono-font;
+  font-size: $fs5;
+  border: 1px solid;
+
+  &--primary {
+    background-color: $blanco;
+    color: $gris-medio;
+    border-color: $gris-medio;
+  }
+
+  &--primary:hover {
+    color: $gris-claro;
+    border: 1px solid $gris-claro;
+  }
+
+  &--secondary {
+    background-color: $verde;
+    color: $blanco;
+    border-color: $verde;
+  }
+
+  &--secondary:hover {
+    background-color: $verde-claro;
+    color: $gris-claro;
+  }
+}

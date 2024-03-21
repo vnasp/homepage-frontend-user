@@ -1,0 +1,11 @@
+{
+  "name": "desafio_layout-home",
+  "version": "1.0.0",
+  "description": "Cafetería Agere",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/sass/main.scss:assets/css/main.css"
+  },  
+  "author": "Valentina Muñoz",
+  "license": "ISC"
+}

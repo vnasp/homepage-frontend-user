@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: $mono-font;
+  font-size: $fs5;
+  line-height: $fs3;
+}
+
+h1 {
+  font-size: $fs1;
+  line-height: $fs1;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: $fs2;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: $fs3;
+  font-weight: lighter;
+  padding-bottom:$sp5;
+}
+
+p {
+  font-family: $roboto-font;
+}

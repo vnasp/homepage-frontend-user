@@ -1,0 +1,61 @@
+.box {
+  &--amarillo {
+    @include box($amarillo, 150px, 150px);
+    @include box_posicion(0, 0, 2);
+  }
+
+  &--rojo {
+    @include box($rojo, 150px, 150px);
+    @include box_posicion(15px, -15px, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $fs2;
+  }
+
+  &--azul {
+    @include box($azul, 50%, 250px);
+    position: relative;
+  }
+
+  &--cafeteria {
+    @include box_image("../img/img-1.png", $width: 100%, $height: 500px);
+  }
+
+  &--maquina {
+    @include box_image("../img/img-2.png", $width: 100%, $height: 300px);
+  }
+
+  &--granos {
+    @include box_image("../img/img-3.png", $width: 25%, $height: 150px);
+    @include box_position(0, -50px, 2);
+  }
+
+  &--mapa {
+    @include box_image("../img/img-4.png", $width: 90%, $height: 250px);
+    @include box_position(-20px, -30px, 2);
+  }
+
+  &--titulo,
+  &--conocenos {
+    padding: $sp5;
+  }
+
+  &--titulo {
+    margin: $sp5;
+  }
+
+  &--caracteristicas {
+    @include box_position(0, 0, 2);
+    background-color: $blanco;
+    font-size: $fs4;
+    padding: $sp5;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 2rem;
+    width: 50%;
+    height: 150px;
+  }
+
+}

@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Mono", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  padding-bottom: 30px;
+}
+
+p {
+  font-family: "Roboto Light", sans-serif;
+}
+
+.btn {
+  padding: 8px 15px;
+  font-family: "PT Mono", sans-serif;
+  font-size: 16px;
+  border: 1px solid;
+}
+.btn--primary {
+  background-color: #ffffff;
+  color: #989797;
+  border-color: #989797;
+}
+.btn--primary:hover {
+  color: #eeeded;
+  border: 1px solid #eeeded;
+}
+.btn--secondary {
+  background-color: #4CA866;
+  color: #ffffff;
+  border-color: #4CA866;
+}
+.btn--secondary:hover {
+  background-color: #9DCFAB;
+  color: #eeeded;
+}
+
+.box--amarillo {
+  background-color: #e8c93e;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.box--rojo {
+  background-color: #E4572E;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  position: absolute;
+  bottom: 15px;
+  left: -15px;
+  z-index: 3;
+}
+.box--azul {
+  background-color: #3C91E6;
+  width: 50%;
+  height: 250px;
+  position: relative;
+}
+.box--cafeteria {
+  background-image: url("../img/img-1.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.box--maquina {
+  background-image: url("../img/img-2.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.box--granos {
+  background-image: url("../img/img-3.png");
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: -50px;
+  z-index: 2;
+}
+.box--mapa {
+  background-image: url("../img/img-4.png");
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 250px;
+  position: absolute;
+  bottom: -20px;
+  left: -30px;
+  z-index: 2;
+}
+.box--titulo {
+  padding: 30px;
+  margin: 30px;
+}
+.box--caracteristicas {
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 2rem;
+  width: 50%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.box--conocenos {
+  width: 50%;
+  padding: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 30px;
+  margin: 0 30px;
+}
+.header__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 3rem;
+  color: #989797;
+}
+.header__logo {
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.main {
+  margin: 30px;
+}
+.main__superior, .main__inferior {
+  display: flex;
+}
+.main__superior--izquierdo, .main__inferior--izquierdo {
+  width: 70%;
+  display: flex;
+}
+.main__superior--derecho, .main__inferior--derecho {
+  width: 30%;
+  position: relative;
+}
+
+/*# sourceMappingURL=main.css.map */

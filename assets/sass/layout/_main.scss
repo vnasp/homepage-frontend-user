@@ -1,0 +1,19 @@
+.main {
+  margin: $sp5;
+
+  &__superior,
+  &__inferior {
+    display: flex;
+  }
+
+  &__superior--izquierdo,
+  &__inferior--izquierdo {
+    width: 70%;
+    display:flex;
+  }
+  &__superior--derecho,
+  &__inferior--derecho {
+    width:30%;
+    position: relative;
+  }
+}
