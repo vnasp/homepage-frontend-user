@@ -27,8 +27,8 @@
   }
 
   &--granos {
-    @include box_image("../img/img-3.png", $width: 25%, $height: 150px);
-    @include box_position(0, -50px, 2);
+    @include box_image("../img/img-3.png", $width: 25%, $height: 180px);
+    @include box_position(40%, -50px, 2);
   }
 
   &--mapa {
@@ -45,8 +45,12 @@
     margin: $sp5;
   }
 
+  &--conocenos {
+    width:50%;
+  }
+
   &--caracteristicas {
-    @include box_position(0, 0, 2);
+    @include box_position(0, 50%, 2);
     background-color: $blanco;
     font-size: $fs4;
     padding: $sp5;
