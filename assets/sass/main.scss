@@ -3,24 +3,24 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
-// Base,s
+// Vendors
+@import "vendors/bootstrap";
+
+// Bases
 @import "base/reset";
 @import "base/typography";
-
-// Components
-@import "components/buttons";
-@import "components/boxes";
 
 // Layout
 @import "layout/body";
 @import "layout/header";
 @import "layout/main";
 
+// Components
+@import "components/buttons";
+@import "components/boxes";
+
 // Pages
 @import "pages/home";
 
 // Themes
 @import "themes/theme";
-
-// Vendors
-@import "vendors/bootstrap";
